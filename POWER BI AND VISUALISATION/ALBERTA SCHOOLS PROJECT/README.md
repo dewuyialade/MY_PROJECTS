@@ -58,6 +58,6 @@ This project demonstrates how data visualization can help education organization
 The result is a clearer understanding of where performance is strong, where support may be needed, and how schools compare across the province.
 
 ## Outcome
-This project is a strong example of how Power BI can turn education and public-sector data into a strategic tool. It moves beyond reporting and into insight generation, helping stakeholders interpret patterns more clearly and make better-informed decisions.
+This project is a strong example of how Power BI can turn education and public-sector data into a strategic tool. It moves beyond reporting and into insight generation, helping stakeholders interpret patterns more clearly and make better-informed decisions. 
 
 
