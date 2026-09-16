@@ -1,6 +1,6 @@
 # OLTP to Staging: Store Dimension ETL Package
 
-![SSIS store staging control flow](../Screenshot%202026-09-15%20173245.png)
+![SSIS store staging control flow](/INTEGRATION_%20ETL_EDW/lmages/Screenshot%202026-09-15%20173245.png)
 
 ## Overview
 
@@ -28,7 +28,7 @@ The green precedence constraints in the control-flow screenshot indicate that ea
 
 ## Control flow
 
-![Store staging control flow](../Screenshot%202026-09-15%20173245.png)
+![Store staging control flow](/INTEGRATION_%20ETL_EDW/lmages/Screenshot%202026-09-15%20173245.png)
 
 The package contains five visible steps:
 
@@ -42,7 +42,7 @@ The package is one member of a broader staging project that also contains packag
 
 ## Data flow
 
-![Store data flow](../Screenshot%202026-09-15%20174328.png)
+![Store data flow](/INTEGRATION_%20ETL_EDW/lmages/Screenshot%202026-09-15%20174328.png)
 
 The data-flow view shows two components:
 
@@ -53,7 +53,7 @@ The simple design makes the movement of data easy to inspect and provides a clea
 
 ## OLTP source query
 
-![OLTP source configuration](../Screenshot%202026-09-15%20174349.png)
+![OLTP source configuration](/INTEGRATION_%20ETL_EDW/lmages/Screenshot%202026-09-15%20174349.png)
 
 The source uses the `TESCA_OLTP` OLE DB connection manager and the `SQL command` access mode:
 ```sql
@@ -81,8 +81,7 @@ This query demonstrates several useful ETL decisions:
 
 ## Metrics and audit SQL
 
-![Metrics task SQL](../Screenshot%202026-09-15%20174424.png)
-
+![Metrics task SQL](/INTEGRATION_%20ETL_EDW/lmages/Screenshot%202026-09-15%20174424.png)
 The final Execute SQL Task uses package parameters or variables for the package identifier, source count, and destination count as shown below:
 
 ```sql
