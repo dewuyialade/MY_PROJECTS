@@ -2,7 +2,7 @@
 
 ![Employee dimension control flow](/INTEGRATION_%20ETL_EDW/lmages/7.png)
 
-## Project Report
+## Project Overview
 
 This report documents an SQL Server Integration Services (SSIS) package that loads employee dimension data from the staging layer into the enterprise data warehouse (EDW). The design applies Slowly Changing Dimension principles before the records are then loaded into the warehouse.
 
