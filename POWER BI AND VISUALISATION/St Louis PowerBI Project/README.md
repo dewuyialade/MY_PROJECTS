@@ -38,7 +38,6 @@ To address this challenge, I developed a dashboard centered on a time-series com
 - Trend analysis to identify peak engagement windows
 - Interactive filtering for exploring behavior by time period
 - Clean presentation tailored for business stakeholders
-The dashboard includes:
 
 ## Why This Matters to the Business
 The value of this analysis is not just in the chart itself, but in the business implication behind it. If mobile traffic consistently dominates during high-demand shopping windows, marketing teams can optimize campaign scheduling, promotions, and channel allocation around those periods.
